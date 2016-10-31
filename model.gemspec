@@ -8,7 +8,7 @@ rescue LoadError => e
   version = IO.readlines(File.join(File.dirname(__FILE__),"CHANGES")).join[/#\s*(\d+\.\d+\.\d+)\b/,1]
 end
 
-if `git status --porcelain | wc -l`.to_i > 0
+if 'git status --porcelain | wc -l'.to_i > 0
   version = version + "pre"
 end
 
