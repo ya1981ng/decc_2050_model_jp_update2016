@@ -9,7 +9,7 @@ rescue LoadError => e
 end
 
 if `git status --porcelain | wc -l`.to_i > 0
-  version = version + "pre"
+  version = version
 end
 
 Gem::Specification.new do |s|
