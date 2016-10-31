@@ -1,0 +1,55 @@
+# 3.5.1
+
+1. Updated the underlying excel model to version 3.5.1 which alters the car battery/fuel cell choice to be ABCD not 1234
+2. Renamed many files to remove the decc_2050_ prefix and many classes to remove the Decc2050 prefix. This allows quicker adaptation to other countries.
+
+# 3.5.0
+
+1. Updated the underlying excel model to version 3.5.0 which alters bike costs
+2. Now uses excel_to_c version 0.1.20 (so should be able to translate updated spreadsheets in ruby 2.0 as well as ruby 1.9)
+
+# 3.4.8
+
+1. Updating the underlying excel model to version 3.4.8 which alters the naming of some outputs
+
+# 3.4.7
+1. Seems to work with Ruby 2.0 so altering the gemspec to be happy with that
+
+# 3.4.6
+1. updated underlying excel model  version to 3.4.6 which fixes some typos
+
+# 3.4.5
+
+1. Updated the underlying model to version 3.4.5 which now has full details about the example pathways accessible through model_structure
+2. Make sure the model last modified date updates each time the excel is recompiled
+3. Gem version now set automatically from excel model
+
+# 3.4.4
+
+1. Updated the underlying Excel model to version 3.4.4, which shifts some references
+
+# 3.4.3
+
+1. Updated the underlying Excel model to version 3.4.3
+2. The utility script now builds against Ubuntu 11 so that it uses an older version of libc for greater compatibility
+
+# 3.4.1
+
+1. Updated the underlying Excel model to version 3.4.1 (that fixed a bug in emissions reductions)
+2. Included new tools for compiling gem on ec2
+
+# 3.4.0
+
+1. Changed version number system to correspond with the spreadsheet version number
+2. Updated the underlying Excel model to version 3.4.0 (that includes a new low cost pathway and a number of cost bug fixes) 
+
+# 0.0.9
+
+1. Updated to a new version of excel_to_code that avoids an occasional bug in string joins
+
+# 0.0.8
+
+1. Updated to new version of excel_to_code that avoids memory leaks
+2. Added some useful utility scripts for deploying the model
+3. Updated the underlying excel model to version 2.1 (that includes new Markal and Friends of the Earth example pathways)
+
